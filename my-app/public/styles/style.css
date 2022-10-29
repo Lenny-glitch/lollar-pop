@@ -1,19 +1,25 @@
+body{
 
-main {
-    text-align: center;
-    
 }
-
-nav {
+main {
+ 
+    text-align: center;
+    background: black;
     outline-style: dotted;
     outline-color: green;
 }
 
-p {
-    color: green;
+nav {
+
+    background-color: gray;
+    outline-style: dotted;
+    outline-color: green;
+   
 }
 
 footer {
-
+    outline-style: dotted;
+    outline-color: green;
+    background: black;
     text-align: center;
 }
