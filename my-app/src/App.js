@@ -18,31 +18,32 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <nav style={{ margin: 10 }}>
-        <Link to="/" style={{ padding: 5 }}>
-          Home
-        </Link>
-        <Link to="/about" style={{ padding: 5 }}>
-          About
-        </Link>
-        <Link to="/maptools" style={{ padding: 5 }}>
-          MapTools
-        </Link>
-        <Link to="/shamantools" style={{ padding: 5 }}>
-          ShamanTools
-        </Link>
-        <Link to="/playertools" style={{ padding: 5 }}>
-          PlayerTools
-        </Link>
-      </nav>
-      {/* Rest of the code remains same */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/playertools" element={<PlayerTools />} />
-      </Routes>
-    </Router>
-
-
+    <nav style={{ margin: 10 }}>
+      <Link to="/" style={{ padding: 5 }}>
+        Home
+      </Link>
+      <Link to="/about" style={{ padding: 5 }}>
+        About
+      </Link>
+      <Link to="/playertools" style={{ padding: 5 }}>
+        Player Tools
+      </Link>
+      <Link to="/maptools" style={{ padding: 5 }}>
+        Map Tools
+      </Link>
+      <Link to="/shamantools" style={{ padding: 5 }}>
+        Shaman Tools
+      </Link>
+    </nav>
+    {/* Rest of the code remains same */}
+<Routes>
+    <Route path="/" element={<Home />} />
+  <Route path="/about" element={<About />} />
+  <Route path="/PlayerTools" element={<PlayerTools />} />
+  <Route path="/MapTools" element={<MapTools />} />
+  <Route path="/ShamanTools" element={<ShamanTools />} />
+  </Routes>
+  </Router>
   );
 }
 

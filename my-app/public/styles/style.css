@@ -1,72 +1,19 @@
-body {
-    background-color: rgb(68, 68, 68);
-    outline-style: dotted;
-    outline-color: rgb(0, 0, 0);
-    height: 500px;
+
+main {
+    text-align: center;
+    
 }
 
-.container {
-    display: flex;
-}
-
-.row {
-    display: flex;
-    flex: auto;
-    align-self: center;
-    outline-style: dotted;
-    outline-color:green;
-}
-
-.col {
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-button {
+nav {
     outline-style: dotted;
     outline-color: green;
-    height: 50px;
-    margin: 10px;
-    font-style: italic;
 }
-p{
+
+p {
     color: green;
 }
-a{
-    color: green;
-    text-decoration: none;
-}
 
-#header {
-    display: flex;
-}
+footer {
 
-#main {
-    display: flex;
-   
-    height: 100%;
-}
-
-#footerContainer {
-    display: flex;
-}
-
-#footerRow {
-    display: flex;
     text-align: center;
-}
-
-.footerCol {
-    display: flex;
-    justify-content: center;
-
-}
-
-#startBtnContainer {
-    display: flex;
-}
-
-#startBtn {
-    width: 100%;
 }
